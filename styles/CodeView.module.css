@@ -1,0 +1,56 @@
+.container {
+  background-color: skyblue;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  padding: 1.5rem;
+}
+.editorTitle {
+  padding: 10px;
+  font-family: Tahoma;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editorContainer {
+  background-color: #1d1e22;
+  height: 100%;
+  color: #b7bbc8;
+  padding-left: 5px;
+  position: relative;
+}
+  .svg {
+    background-color: var(--card-background-color);
+    border-color: rgba(128, 128, 128, 0.35);
+    border-radius: 0.25rem;
+    border-style: dashed;
+    border-width: 2px;
+    color: rgba(128, 128, 128, 0.35);
+    height: 100%;
+    width: 100%;
+  }
+
+.split-view-horizontal {
+  height: 11px;
+  margin: -5px 0;
+  cursor: row-resize;
+  width: 100%;
+  border: 8px solid #333642;
+}
+
+.split-view-vertical {
+  margin: 0 -5px;
+
+  cursor: col-resize;
+  border: 8px solid #333642;
+}
+.split-view {
+  z-index: 10000;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+  

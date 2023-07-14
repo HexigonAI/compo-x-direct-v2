@@ -1,0 +1,35 @@
+@font-face {
+  font-family: LeagueSpartanMedium;
+  src: url('../fonts/LeagueSpartan-Medium.ttf');
+}
+.font-family-league-spartan-medium {
+  font-family: LeagueSpartanMedium;
+}
+.footer_blocks {
+  background: linear-gradient(95.71deg, #14f1d0 9.13%, #98d1ee 73.14%);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  transition: transform 0.5s ease-out;
+}
+
+.slide_out {
+  transform: translateY(100%);
+}
+.footer_close {
+  border-radius: 10px;
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  width: 3rem;
+  height: 3rem;
+  background-image: url('../images/close-icon__white.svg');
+  background-position: 50% 50%;
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  transition: all 110ms ease;
+}
